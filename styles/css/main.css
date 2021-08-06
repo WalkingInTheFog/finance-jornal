@@ -966,15 +966,19 @@ section{
 /******************************------article-tags-----*************************************************************/    
 .article-tags-list {
 
-    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     
     list-style-type: none;
     margin: 0;
+    margin-bottom: 30px;
     padding: 0;
 
 }
-    .article-tags-list__item {
+    .article-tags-list__item:not(:first-child) {
           
+        margin-left: 20px;
 
     }
         .article-tags-list__link {
@@ -1010,7 +1014,9 @@ section{
                     opacity: 0.6;
         }
 
-
+        .article-footer__metadata span{
+            margin-left: 20px;
+        }
 /*article-view-all-link*********************/
 
 .article-view-all-link{
