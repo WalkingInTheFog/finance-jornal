@@ -987,7 +987,7 @@ section{
 
 .article-footer{
 
-    border-bottom:1px solid var(--main-black-color);
+    /* border-bottom:1px solid var(--main-black-color) */
 
 }
 
