@@ -1027,6 +1027,8 @@ section{
 }
 
 
+
+
 /***************************short-view-article************************************/
 
 .short-view{}
@@ -1041,6 +1043,45 @@ section{
             
 
     }   
+
+
+
+ /*****************************************reference-article-list*************************/
+ 
+ .reference-article-list{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+
+    .reference-article-list li{
+
+        width: 370px;
+        max-width: 370px;
+        min-width: 370px;
+    }
+
+    .reference-article-list li:not(:first-child){
+        margin-left: 30px;
+    }
+
+    .reference-article footer span{
+        margin-left: 20px;
+    }
+
+        
+
+        .reference-article p,
+        .reference-article footer{
+            padding-left: 20px;
+            padding-right: 25px;
+        }
 
 
  /**********************************main-footer*****************************************/   
