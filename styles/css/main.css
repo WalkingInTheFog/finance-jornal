@@ -996,6 +996,7 @@ section{
 .article-footer{
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-bottom: 70px;
     border-bottom:1px solid var(--main-black-color);
     border-top:1px solid var(--main-black-color);
 
@@ -1045,6 +1046,19 @@ section{
     }   
 
 
+/**********************************************************************/
+
+.reference-title-wrapper{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.reference-title-wrapper a{
+    margin-left: auto;
+    
+}
 
  /*****************************************reference-article-list*************************/
  
