@@ -900,6 +900,7 @@ section{
 
 /***************************---------------table-bg-color-------***************************************/
 .table-bg-color{
+    table-layout: fixed;
     text-align: center;
     font-size: 17px;
     line-height: 1.3;
@@ -929,9 +930,8 @@ section{
     }
 
 
-    .table-bg-color td,
-    .table-bg-color th{
-        padding: 25px 15px;
+    .table-bg-color td{
+        padding: 20px 15px;
     }
 
 
@@ -946,6 +946,23 @@ section{
     .table-bg-color th.low-padding{
         padding-top: 8px;
         padding-bottom: 8px;
+    }
+
+    .table-bg-color__valute{
+    
+        width: 170px;
+    }
+
+    .table-bg-color__count{
+        width:130px;
+    }
+
+    .table-bg-color__summ-active{
+        width:270px;
+    }
+
+    .table-bg-color__share{
+        width:130px;
     }
 
 /**************************=-----примечания----*******************************/
