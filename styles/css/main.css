@@ -1119,9 +1119,18 @@ section{
  /**********************************main-footer*****************************************/   
 
  .main-footer{
+     padding-top: 40px;
      background-color: var(--main-black-color);
      color: #fff;
  }
+
+    .main-footer__main {
+                
+    }
+        .main-footer__logo-soc-wrapper .main-logo{
+            display: block;
+            margin-bottom: 30px;
+        }
 
  .main-footer a{
   
@@ -1174,3 +1183,75 @@ section{
     opacity: 0.6;
 
 }
+
+/**************************************************************************************************/
+
+.social-list {
+    width: 238px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+                    
+}
+    .social-list__item {
+        margin: 0;
+        padding: 0; 
+    }
+
+    .social-list__item:not(:first-child){
+        margin-left: 40px;
+    }
+
+
+        .social-list__link {
+            
+        }
+            .social-list__link-icon {
+                
+            }
+
+
+
+
+
+            .main-footer {
+    
+}
+    .container {
+        
+    }
+       
+                .main-logo {
+                    
+                }
+               
+
+                
+                                            .main-footer__link-list {
+                                                
+                                            }
+                                            .main-footer__form-wrapper {
+                                                
+                                            }
+                                                .footer-subscribe-form {
+                                                    
+                                                }
+                                                    .visually-hidden {
+                                                        
+                                                    }
+                                                    .btn {
+                                                        
+                                                    }
+                                                .main-footer__footnote {
+                                                    
+                                                }
+                                    .main-footer__border-wrapper {
+                                        
+                                    }
+                                            .main-footer__footer {
+                                                
+                                            }
