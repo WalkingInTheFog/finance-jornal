@@ -1125,6 +1125,8 @@ section{
  }
 
     .main-footer__main {
+
+        
                 
     }
         .main-footer__logo-soc-wrapper .main-logo{
@@ -1182,11 +1184,14 @@ section{
 
 }
 
+.footer-subscribe-form .main-footer__footnote{
+    width: 310px;
+    max-width: 310px;}
+
 /************************************class="main-footer__footnote"************************/
 
 .main-footer__footnote{
-    width: 310px;
-    max-width: 310px;
+
     
     font-family: var(--main-font-family);
     
@@ -1287,8 +1292,13 @@ section{
                                                     
                                                 }
                                     .main-footer__border-wrapper {
-                                        
+                                        border-top:1px solid #fcfcfc;
                                     }
                                             .main-footer__footer {
-                                                
+                                                display: flex;
+                                                justify-content: space-between;
+                                                align-items: center;
+
+                                                padding-top: 20px;
+                                                padding-bottom: 20px;
                                             }
