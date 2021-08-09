@@ -1158,9 +1158,19 @@ section{
 
 /*************************************footer-subscribe-form*********************/
 
-.footer-subscribe-form {}
+.footer-subscribe-form {
+    font-size: 0;
+}
 
-.footer-subscribe-form button
+.footer-subscribe-form input[type="email"]{
+    min-width: 230px;
+    padding:15px;
+    border: none;
+    outline: none;
+
+    font-size: 16px;
+    line-height: 1.25;
+}
 
 .footer-subscribe-form button{
     
@@ -1175,6 +1185,8 @@ section{
 /************************************class="main-footer__footnote"************************/
 
 .main-footer__footnote{
+    width: 310px;
+    max-width: 310px;
     
     font-family: var(--main-font-family);
     
