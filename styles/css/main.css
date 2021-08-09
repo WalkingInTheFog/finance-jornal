@@ -1126,9 +1126,17 @@ section{
 
     .main-footer__main {
 
-        
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
                 
     }
+
+        .main-footer__logo-soc-wrapper{
+            margin-right: 162px;
+        }
+
         .main-footer__logo-soc-wrapper .main-logo{
             display: block;
             margin-bottom: 30px;
@@ -1139,9 +1147,7 @@ section{
     color: #fff;
 }
 
-.main-footer__link-list{
-    list-style-type: none;
-}
+
 
 .main-footer__link-list a{
 
@@ -1274,6 +1280,7 @@ section{
                                                 list-style-type: none;
                                                 margin: 0;
                                                 padding: 0;
+                                                margin-right: 75px;
                                                 
                                             }
                                             .main-footer__form-wrapper {
@@ -1292,6 +1299,7 @@ section{
                                                     
                                                 }
                                     .main-footer__border-wrapper {
+                                        margin-top: 40px;
                                         border-top:1px solid #fcfcfc;
                                     }
                                             .main-footer__footer {
