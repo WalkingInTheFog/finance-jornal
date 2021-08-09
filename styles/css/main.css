@@ -1151,14 +1151,16 @@ section{
     text-decoration: none;
 
     color: #FCFCFC;
-
-
-
-
 }
+
+    
+
+
 /*************************************footer-subscribe-form*********************/
 
 .footer-subscribe-form {}
+
+.footer-subscribe-form button
 
 .footer-subscribe-form button{
     
@@ -1210,12 +1212,31 @@ section{
         .social-list__link {
             
         }
-            .social-list__link-icon {
-                
+
+
+            .social-list__link:hover svg path,
+            .social-list__link:focus svg path,
+            .social-list__link:hover svg circle,
+            .social-list__link:focus svg circle,
+            .social-list__link:hover svg rect,
+            .social-list__link:focus svg rect,
+            .social-list__link:hover svg,
+            .social-list__link:focus svg{
+                 
+                fill: var(--main-black-color);
+                stroke: #FCFCFC;
             }
 
 
+            .social-list__link:active svg{
+                 
+                fill: var(--main-black-color);
+                stroke: #dad6d6;
+            }
 
+            .social-list__link-icon {
+                
+            }
 
 
             .main-footer {
@@ -1232,6 +1253,10 @@ section{
 
                 
                                             .main-footer__link-list {
+
+                                                list-style-type: none;
+                                                margin: 0;
+                                                padding: 0;
                                                 
                                             }
                                             .main-footer__form-wrapper {
