@@ -42,6 +42,7 @@ body{
     font-size: 20px;
     line-height: 1.5;
     color: var(--main-text-color);
+    background-color: #fcfcfc;
 
     /* COUNTERs */
     counter-reset: numeric-list;
