@@ -421,6 +421,15 @@ section{
             
     
         }
+
+            .valute-course a{
+                text-decoration: none;
+                color:var(--main-white-color);    
+                font-size: 16px;
+                line-height: 1.25;
+
+            }
+
             .valute-course__USD {
                 
             }
