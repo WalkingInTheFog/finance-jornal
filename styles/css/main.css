@@ -307,10 +307,11 @@ aside{
 
 .view-icon{
     padding-left: 25px;
+   
 
     background-image: url('../../img/content/eye-icon.svg');
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position:left center;
     background-size: 20px 16px;
 }
 
@@ -318,10 +319,11 @@ aside{
 .time-icon{
 
     padding-left: 25px;
+    
 
     background-image: url('../../img/content/time-icon.svg');
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position:left center;
     background-size: 18px 18px;
 }
 
@@ -329,10 +331,11 @@ aside{
 .search-icon{
 
     padding-left: 25px;
+   
 
     background-image: url('../../img/content/search-icon.svg');
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position:left center;
     background-size: 18px 18px;
 }
 
@@ -340,10 +343,11 @@ aside{
 .mail-icon{
 
     padding-left: 25px;
+    
 
     background-image: url('../../img/content/email-icon.svg');
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position:left center;
     background-size: 24px 15px;
 }
 
@@ -626,8 +630,21 @@ section{
     background-color: #F1F4FB;
 }
 
+    .main-article__head-wrapper{
+
+        background-repeat:no-repeat;
+        background-size: 614px 423px;
+        background-position: 650px;
+        
+    }
+
     .main-article__head-inner{
+        
         position: relative;
+        min-width:700px;
+        max-width:700px;
+        margin-left: 0;
+
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -646,7 +663,7 @@ section{
         left: 92%;
         top:0;
         position: absolute;
-        background-image: url(../../img/content/lead-bg-img.png);
+        /* background-image: url(../../img/content/lead-bg-img.png); */
         background-repeat:no-repeat;
         width: 614px;
         height: 423px;
