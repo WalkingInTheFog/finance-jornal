@@ -438,6 +438,7 @@ section{
                     margin-right: 5px;
                 }
                 .valute-course__valute {
+                    text-transform: uppercase;
                     
                 }
                 .valute-course__value {
