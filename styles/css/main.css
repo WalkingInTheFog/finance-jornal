@@ -430,6 +430,17 @@ section{
 
             }
 
+                .valute-course a:hover *,
+                .valute-course a:focus *{
+                    opacity: 0.5;
+                }
+
+                    
+                .valute-course a:active *{
+                    opacity: 0.9;
+                }
+
+
             .valute-course__USD {
                 
             }
