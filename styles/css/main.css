@@ -688,6 +688,8 @@ section{
     }
     .main-article__head-lead-text {
         margin-top: 0;
+        max-width: 472px;
+
         font-size: 26px;
         font-family: var(--main-font-family);
         font-weight: 400;
@@ -729,8 +731,18 @@ section{
             line-height: 1.42;
         }
 
+        .start-stat-text a{
+            
+        }
 
-.table-of-contents-list a{
+
+        .article-nav-list{
+            margin-left: 0;
+            padding-left: 0;
+            list-style-position: inside;
+        }
+
+.article-nav-list a{
 
     font-family: var(--main-font-family);
     font-size: 20px;
