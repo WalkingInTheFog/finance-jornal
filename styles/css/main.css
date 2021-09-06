@@ -32,7 +32,7 @@
         margin: 0;
         padding: 0;
     }
-    
+
 .visually-hidden {
      position: absolute;
       height: 1px;
@@ -322,7 +322,7 @@ aside{
     padding-left: 25px;
    
 
-    background-image: url('../../img/content/eye-icon.svg');
+    background-image: url('../../img/eye-icon.svg');
     background-repeat: no-repeat;
     background-position:left center;
     background-size: 20px 16px;
@@ -334,7 +334,7 @@ aside{
     padding-left: 25px;
     
 
-    background-image: url('../../img/content/time-icon.svg');
+    background-image: url('../../img/time-icon.svg');
     background-repeat: no-repeat;
     background-position:left center;
     background-size: 18px 18px;
@@ -346,7 +346,7 @@ aside{
     padding-left: 25px;
    
 
-    background-image: url('../../img/content/search-icon.svg');
+    background-image: url('../../img/search-icon.svg');
     background-repeat: no-repeat;
     background-position:left center;
     background-size: 18px 18px;
@@ -358,7 +358,7 @@ aside{
     padding-left: 25px;
     
 
-    background-image: url('../../img/content/email-icon.svg');
+    background-image: url('../../img/email-icon.svg');
     background-repeat: no-repeat;
     background-position:left center;
     background-size: 24px 15px;
@@ -439,6 +439,30 @@ section{
     
         }
 
+        .valute-course__arrow {
+            opacity:0.5;
+            margin-right: 5px;
+        }
+
+        .valute-course__valute {
+            text-transform: uppercase;
+            
+        }
+
+        .valute-course__value {
+            margin-left: 12px;
+        }
+        .valute-course__currency {
+            margin-left: 5px;
+            opacity:0.5;
+        }
+
+
+    .valute-course:last-child{
+        
+        margin-left: 40px;
+    }
+
             .valute-course a{
                 text-decoration: none;
                 color:var(--main-white-color);    
@@ -457,31 +481,7 @@ section{
                     opacity: 0.9;
                 }
 
-
-            .valute-course__USD {
-                
-            }
-                .valute-course__arrow {
-                    opacity:0.5;
-                    margin-right: 5px;
-                }
-                .valute-course__valute {
-                    text-transform: uppercase;
-                    
-                }
-                .valute-course__value {
-                    margin-left: 12px;
-                }
-                .valute-course__currency {
-                    margin-left: 5px;
-                    opacity:0.5;
-                }
-
-
-            .valute-course__EUR {
-                
-                margin-left: 40px;
-            }
+               
 
 
 /*****************************************************************************/
@@ -676,7 +676,7 @@ section{
         left: 92%;
         top:0;
         position: absolute;
-        /* background-image: url(../../img/content/lead-bg-img.png); */
+        /* background-image: url(../../img/lead-bg-img.png); */
         background-repeat:no-repeat;
         width: 614px;
         height: 423px;
