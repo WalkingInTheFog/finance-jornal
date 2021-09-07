@@ -557,17 +557,18 @@ section{
                 }
                     .main-nav__list {
 
-                        max-width: 585px;
-                        width: 585px;
+                        max-width: 625px;
+                        width: 625px;
 
                         display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
-                        justify-content: space-between;
+                        justify-content: flex-start;
 
                         padding: 0;
                         margin: 0;
-                        margin-right: 10px;
+                        margin-right: -40px;
+                       
                         list-style-type:none;
                         
                         
@@ -575,6 +576,7 @@ section{
                         .main-nav__item {
                             padding: 0;
                             margin: 0;
+                            margin-right: 40px;
                         }
                             .main-nav__link {
 
