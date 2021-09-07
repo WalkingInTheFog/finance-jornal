@@ -417,6 +417,8 @@ section{
 
             display: flex;
             flex-direction: row;
+            align-items: center;
+            align-content: center;
             
             
 
@@ -429,20 +431,49 @@ section{
         }
     
         .valute-wrapper {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            align-content: center;    
+            
             margin: 0;
             margin-left: auto;
     
             font-weight: 600;
             font-size: 16px;
             line-height: 1.25;
-            
-    
+        }
+
+        .valute-course{
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .valute-course__arrow {
-            opacity:0.5;
-            margin-right: 5px;
+            display: block;
+            width: 9px;
+            height: 11px;
+            margin-right: 8px;
+            
+            background-repeat: no-repeat;
+            /* background-size: 7px 11px; */
+            background-position: 50% 50%;
+            opacity: 0.5;
         }
+
+            .valute-course__arrow--down{
+                
+                background-image: url("../../img/arrow-down.svg");
+
+            }
+
+            .valute-course__arrow--up{
+                
+                background-image: url("../../img/arrow-up.svg");
+
+            }
+
 
         .valute-course__valute {
             text-transform: uppercase;
@@ -452,8 +483,19 @@ section{
         .valute-course__value {
             margin-left: 12px;
         }
+
+
         .valute-course__currency {
-            margin-left: 5px;
+
+            display: block;
+            width: 7px;
+            height: 11px;
+            margin-left: 8px;
+            
+            background-image: url("../../img/ruble.svg");
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            
             opacity:0.5;
         }
 
@@ -465,7 +507,8 @@ section{
 
             .valute-wrapper a{
                 text-decoration: none;
-                color:var(--main-white-color);    
+                color:var(--main-white-color);
+                font-weight: 600;    
                 font-size: 16px;
                 line-height: 1.25;
 
