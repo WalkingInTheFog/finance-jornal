@@ -1101,6 +1101,7 @@ section{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
     
     list-style-type: none;
     margin: 0;
@@ -1108,9 +1109,15 @@ section{
     padding: 0;
 
 }
-    .article-tags-list__item:not(:first-child) {
+
+.article-tags-list__item{
+    margin-bottom: 20px;
+}
+
+
+    .article-tags-list__item{
           
-        margin-left: 20px;
+        margin-right: 20px;
 
     }
         .article-tags-list__link {
