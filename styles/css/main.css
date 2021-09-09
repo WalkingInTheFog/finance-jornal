@@ -1225,6 +1225,31 @@ section{
         margin-left: 30px;
     }
 
+    .reference-article{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }    
+
+    .reference-article__inner{
+        position: relative;
+        max-height: 127px;
+        overflow: hidden;
+    }
+
+    .reference-article__inner::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 62px;
+        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+      }
+
     .reference-article footer span{
         margin-left: 20px;
     }
