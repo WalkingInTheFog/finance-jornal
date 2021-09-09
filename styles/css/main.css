@@ -774,6 +774,13 @@ section{
             margin-left: 15px;
         }
 
+        .start-stat-text-wrapper{
+            width: 625px;
+            max-width: 625px;
+            min-width: 625px;
+        }
+
+
         .start-stat-text{
             margin-top: 99px;
             font-size: 24px;
