@@ -1296,6 +1296,16 @@ section{
 
 
 
+.main-footer__link-list{
+    width: 300px;
+    max-width: 300px;
+    min-width: 300px;
+
+    column-count: 2;
+    column-gap: 89px;
+}
+
+
 .main-footer__link-list a{
 
     font-family:var(--main-font-family);
@@ -1307,6 +1317,8 @@ section{
 
     color: #FCFCFC;
 }
+
+
 
     
 
