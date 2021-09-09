@@ -718,19 +718,7 @@ section{
     }
 
 
-    .main-article__head-inner::after{
-
-        content: "";
-        left: 92%;
-        top:0;
-        position: absolute;
-        /* background-image: url(../../img/lead-bg-img.png); */
-        background-repeat:no-repeat;
-        width: 614px;
-        height: 423px;
-
-        
-    }
+   
 
 
     .main-article__head-page-title {
