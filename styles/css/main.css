@@ -993,7 +993,7 @@ section{
     padding: 0;
 }
 
-    .formula-list i{
+    .formula-list dt{
         
         font-style: normal;
         font-weight: 600;
@@ -1001,8 +1001,8 @@ section{
     }
 
     
-    .formula-desc dd,
-    .formula-desc td{
+    .formula-list dd,
+    .formula-list dt{
 
         display:inline;
         margin: 0;
@@ -1011,7 +1011,7 @@ section{
     }
 
 
-    formula-desc{}
+    
 
 /***************************---------------table-bg-color-------***************************************/
 .table-bg-color{
