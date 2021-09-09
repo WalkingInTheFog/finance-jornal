@@ -929,23 +929,28 @@ section{
 
 /*-------------------inner-ol-list--------------------*/        
 
-
-.inner-ol-list{
+.inner-ol-list,
+.inner-ol-list ol{
     list-style-type: none;
     list-style-position: inside;
-    
     margin: 0;
     padding: 0;
     counter-reset: inner-list;
+}
 
+.inner-ol-list ul{
+   
+    margin-left: 15px;
+   
 }
 
     .inner-ol-list li{
+      
         counter-increment: inner-list;
     }
 
     .inner-ol-list li:before{
-        content: counters(inner-list, '.');
+        content: counters(inner-list, '.') '. ';
     }
 
     .inner-ol-list__item span{
@@ -972,11 +977,7 @@ section{
             
           
             
-            .inner-ol-list__item ol li::after{
-               
-
-            }
-
+            
 
 /******************************************* formula ************************************/
 
